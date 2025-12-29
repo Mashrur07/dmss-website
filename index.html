@@ -1,185 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DMSS | Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</title>
-  <meta name="description" content="DMSS is a social welfare organization dedicated to community development, education, health, and humanitarian support." />
-  <style>
-    /* Reset & Basics */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; scroll-behavior: smooth; }
-    a { text-decoration: none; color: inherit; }
-    ul { list-style: none; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DMSS | Community & Social Welfare</title>
 
-    /* Header & Navigation */
-    header { position: sticky; top: 0; background: #0f766e; color: #fff; padding: 15px 10%; display: flex; align-items: center; justify-content: space-between; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    header h1 { font-size: 1.8em; }
-    nav ul { display: flex; gap: 20px; }
-    nav ul li a { font-weight: bold; transition: 0.3s; }
-    nav ul li a:hover { text-decoration: underline; }
+<style>
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    /* Hero Section */
-    .hero { background: linear-gradient(135deg, #0f766e, #14b8a6); color: #fff; text-align: center; padding: 100px 10%; position: relative; }
-    .hero h2 { font-size: 2.5em; margin-bottom: 20px; animation: fadeInDown 1s ease-in-out; }
-    .hero p { font-size: 1.2em; margin-bottom: 30px; animation: fadeInUp 1s ease-in-out; }
-    .hero a { background: #fff; color: #0f766e; padding: 12px 25px; border-radius: 6px; font-weight: bold; transition: 0.3s; }
-    .hero a:hover { background: #e0f2f1; }
+/* ===== BODY ===== */
+body {
+  font-family: "Courier New", monospace;
+  background: #0b0f14;
+  color: #d1d5db;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
 
-    @keyframes fadeInDown { from {opacity:0; transform:translateY(-20px);} to {opacity:1; transform:translateY(0);} }
-    @keyframes fadeInUp { from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);} }
+/* ===== LINKS ===== */
+a {
+  text-decoration: none;
+  color: #22c55e;
+  transition: 0.3s;
+}
+a:hover {
+  color: #4ade80;
+}
 
-    /* Sections */
-    section { padding: 60px 10%; }
-    section h2 { color: #0f766e; margin-bottom: 30px; font-size: 2em; text-align: center; }
+/* ===== HEADER ===== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(11,15,20,0.95);
+  border-bottom: 1px solid #1f2933;
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    /* Cards */
-    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; }
-    .card { background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; }
-    .card h3 { color: #0f766e; margin-bottom: 15px; }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+header h1 {
+  color: #22c55e;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
 
-    /* CTA Section */
-    .cta { background: #0f766e; color: #fff; text-align: center; padding: 60px 10%; }
-    .cta a { display: inline-block; margin-top: 20px; background: #fff; color: #0f766e; padding: 12px 25px; border-radius: 6px; font-weight: bold; transition: 0.3s; }
-    .cta a:hover { background: #e0f2f1; }
+nav a {
+  margin-left: 20px;
+  font-weight: bold;
+}
 
-    /* Footer */
-    footer { background: #134e4a; color: #fff; text-align: center; padding: 30px 10%; }
-    footer p { margin: 5px 0; }
+/* ===== HERO ===== */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10%;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
 
-    /* Modal */
-    .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 2000; }
-    .modal-content { background: #fff; padding: 30px; border-radius: 10px; width: 90%; max-width: 500px; position: relative; }
-    .modal-content h3 { margin-bottom: 20px; color: #0f766e; }
-    .modal-content label { display: block; margin-bottom: 5px; font-weight: bold; }
-    .modal-content input, .modal-content textarea { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 6px; border: 1px solid #ccc; }
-    .modal-content button { background: #0f766e; color: #fff; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; transition: 0.3s; }
-    .modal-content button:hover { background: #14b8a6; }
-    .close { position: absolute; top: 15px; right: 15px; font-size: 1.5em; cursor: pointer; color: #0f766e; }
+.hero h2 {
+  font-size: 3em;
+  color: #22c55e;
+  text-shadow: 0 0 15px rgba(34,197,94,0.6);
+  margin-bottom: 20px;
+}
 
-    /* Back to Top */
-    #backToTop { position: fixed; bottom: 30px; right: 30px; background: #0f766e; color: #fff; padding: 10px 15px; border-radius: 50%; cursor: pointer; display: none; font-size: 18px; transition: 0.3s; }
-    #backToTop:hover { background: #14b8a6; }
+.hero p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.2em;
+  color: #9ca3af;
+}
 
-    /* Responsive */
-    @media(max-width:768px){
-      header { flex-direction: column; gap: 10px; }
-      nav ul { flex-direction: column; gap: 10px; align-items: center; }
-    }
-  </style>
+.hero .btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 12px 30px;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  border-radius: 5px;
+}
+.hero .btn:hover {
+  background: #22c55e;
+  color: #020617;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 80px 10%;
+}
+
+section h2 {
+  color: #22c55e;
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* ===== TERMINAL BOX ===== */
+.terminal {
+  background: #020617;
+  border: 1px solid #1f2933;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(34,197,94,0.1);
+}
+
+.terminal p::before {
+  content: "> ";
+  color: #22c55e;
+}
+
+/* ===== CARDS ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1f2933;
+  border-radius: 10px;
+  padding: 30px;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(34,197,94,0.15), transparent);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px rgba(34,197,94,0.3);
+}
+
+.card h3 {
+  color: #22c55e;
+  margin-bottom: 15px;
+}
+
+/* ===== CTA ===== */
+.cta {
+  background: linear-gradient(135deg, #020617, #020617);
+  border-top: 1px solid #1f2933;
+  border-bottom: 1px solid #1f2933;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+}
+.cta a:hover {
+  background: #22c55e;
+  color: #020617;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #020617;
+  padding: 30px 10%;
+  text-align: center;
+  border-top: 1px solid #1f2933;
+  font-size: 0.9em;
+  color: #6b7280;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav a {
+    margin: 0 10px;
+  }
+  .hero h2 {
+    font-size: 2.2em;
+  }
+}
+</style>
 </head>
+
 <body>
-  <header>
-    <h1>DMSS</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#programs">Programs</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <h2>Working Together for Social Welfare</h2>
-    <p>DMSS is committed to improving lives through education, healthcare, and community development.</p>
-    <a href="#contact">Get Involved</a>
-  </section>
+<header>
+  <h1>DMSS</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <section id="about">
-    <h2>About DMSS</h2>
-    <p style="max-width:800px; margin: auto; text-align:center;">
-      DMSS (Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha) is a non-profit social welfare organization
-      dedicated to supporting underprivileged communities. Our goal is to create sustainable change
-      through inclusive social programs and community participation.
+<section class="hero">
+  <div>
+    <h2>Empowering Communities_</h2>
+    <p>
+      DMSS (Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha) is a non‑profit organization
+      committed to education, healthcare, and community development.
     </p>
-  </section>
+    <a class="btn" href="#contact">Get Involved</a>
+  </div>
+</section>
 
-  <section id="mission">
-    <h2>Our Mission & Vision</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Our Mission</h3>
-        <p>To empower communities by providing education, healthcare support, and social services.</p>
-      </div>
-      <div class="card">
-        <h3>Our Vision</h3>
-        <p>A just and compassionate society where everyone has equal opportunities to thrive.</p>
-      </div>
+<section id="about">
+  <h2>About DMSS</h2>
+  <div class="terminal">
+    <p>
+      DMSS is a social welfare organization focused on sustainable development,
+      supporting underprivileged communities through inclusive programs.
+    </p>
+  </div>
+</section>
+
+<section id="mission">
+  <h2>Mission & Vision</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Mission</h3>
+      <p>
+        Empower communities through education, healthcare support,
+        and essential social services.
+      </p>
     </div>
-  </section>
-
-  <section id="programs">
-    <h2>Our Programs</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Education Support</h3>
-        <p>Scholarships, learning materials, and awareness programs for children and youth.</p>
-      </div>
-      <div class="card">
-        <h3>Healthcare Assistance</h3>
-        <p>Medical camps, health awareness sessions, and emergency support.</p>
-      </div>
-      <div class="card">
-        <h3>Community Development</h3>
-        <p>Skill development, social awareness, and community empowerment initiatives.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <h2>Get Involved</h2>
-    <p>Your support can make a real difference. Join us as a volunteer or supporter.</p>
-    <a href="#" id="openModal">Contact Us</a>
-  </section>
-
-  <!-- Contact Modal -->
-  <div class="modal" id="contactModal">
-    <div class="modal-content">
-      <span class="close" id="closeModal">&times;</span>
-      <h3>Contact Us</h3>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your Name" required>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Your Email" required>
-        <label for="message">Message</label>
-        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+    <div class="card">
+      <h3>Vision</h3>
+      <p>
+        A just, compassionate society with equal opportunities for all.
+      </p>
     </div>
   </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 DMSS - Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</p>
-    <p>All rights reserved.</p>
-  </footer>
+<section id="programs">
+  <h2>Core Programs</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Education Support</h3>
+      <p>Scholarships, learning materials, and youth awareness initiatives.</p>
+    </div>
+    <div class="card">
+      <h3>Healthcare Assistance</h3>
+      <p>Medical camps, health awareness, and emergency support.</p>
+    </div>
+    <div class="card">
+      <h3>Community Development</h3>
+      <p>Skill development and empowerment programs.</p>
+    </div>
+  </div>
+</section>
 
-  <div id="backToTop">&#8679;</div>
+<section class="cta" id="contact">
+  <h2>Join the Mission</h2>
+  <p>Support DMSS and help us create meaningful social impact.</p>
+  <a href="mailto:info@dmss.org">Contact Us</a>
+</section>
 
-  <script>
-    // Modal functionality
-    const modal = document.getElementById("contactModal");
-    const openBtn = document.getElementById("openModal");
-    const closeBtn = document.getElementById("closeModal");
+<footer>
+  <p>© 2025 DMSS — Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</p>
+  <p>All rights reserved.</p>
+</footer>
 
-    openBtn.onclick = () => modal.style.display = "flex";
-    closeBtn.onclick = () => modal.style.display = "none";
-    window.onclick = e => { if(e.target == modal) modal.style.display = "none"; }
-
-    // Back to Top button
-    const backToTop = document.getElementById("backToTop");
-    window.onscroll = () => {
-      if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        backToTop.style.display = "block";
-      } else {
-        backToTop.style.display = "none";
-      }
-    };
-    backToTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-  </script>
 </body>
 </html>
 
