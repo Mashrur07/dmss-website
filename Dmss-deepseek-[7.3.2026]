@@ -1,0 +1,3085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMSS | Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zaslia:wght@700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="brand" id="logoTop">
+        <img src="https://i.imgur.com/ghZGfkf.jpeg" alt="DMSS Logo" class="logo-img">
+        <div class="brand-text">
+            <h1 class="zaslia-font">DMSS</h1>
+            <p class="tagline">Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</p>
+        </div>
+    </div>
+    
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#membership">Membership</a>
+        <a href="#donation">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+        <div class="hero-badge">EST. 2025</div>
+        <h1>Creating <span class="highlight">Hope</span>,<br>Strengthening <span class="highlight">Communities</span></h1>
+        <p class="hero-description">
+            DMSS is dedicated to uplifting underprivileged communities through education,
+            healthcare, and sustainable development initiatives.
+        </p>
+        <div class="hero-cta">
+            <a class="btn btn-primary" href="#membership">Get Involved</a>
+            <a class="btn btn-outline" href="#donation">Support Us</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Who We Are</span>
+            <h2 class="section-title">About DMSS</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card" data-delay="0.1">
+                <div class="card-icon">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <h3>Who We Are</h3>
+                <p>DMSS is a non-profit social welfare organization focused on inclusive, community-driven development.</p>
+                <div class="card-shine"></div>
+            </div>
+            
+            <div class="card" data-delay="0.2">
+                <div class="card-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>What We Do</h3>
+                <p>We work in education, healthcare, and empowerment to build lasting social impact.</p>
+                <div class="card-shine"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mission" class="section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Our Direction</span>
+            <h2 class="section-title">Mission & Vision</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card" data-delay="0.1">
+                <div class="card-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <h3>Our Mission</h3>
+                <p>Empowering communities through education, healthcare, and essential services.</p>
+                <div class="card-shine"></div>
+            </div>
+            
+            <div class="card" data-delay="0.2">
+                <div class="card-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Our Vision</h3>
+                <p>A compassionate society where everyone has equal opportunities to thrive.</p>
+                <div class="card-shine"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="programs" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">What We Offer</span>
+            <h2 class="section-title">Our Programs</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card" data-delay="0.1">
+                <div class="card-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Education Support</h3>
+                <p>Scholarships, learning resources, and youth development initiatives.</p>
+                <div class="card-shine"></div>
+            </div>
+            
+            <div class="card" data-delay="0.2">
+                <div class="card-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3>Healthcare Assistance</h3>
+                <p>Medical camps, health awareness programs, and emergency support.</p>
+                <div class="card-shine"></div>
+            </div>
+            
+            <div class="card" data-delay="0.3">
+                <div class="card-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3>Community Development</h3>
+                <p>Skill training and empowerment initiatives for sustainable growth.</p>
+                <div class="card-shine"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- IMPACT SECTION -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Your Impact</span>
+            <h2 class="section-title">See Where Your Donation Goes</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="impact-showcase">
+            <div class="impact-grid">
+                <div class="impact-item" data-amount="500">
+                    <div class="impact-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="impact-content">
+                        <div class="impact-amount-badge">৳500</div>
+                        <h3>Provides Iftar for 10 Families</h3>
+                        <p>During the holy month of Ramadan, your donation provides nutritious iftar meals for 10 deserving families.</p>
+                        <div class="impact-bar">
+                            <div class="impact-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-item" data-amount="1000">
+                    <div class="impact-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="impact-content">
+                        <div class="impact-amount-badge">৳1000</div>
+                        <h3>Educates One Child for a Month</h3>
+                        <p>Covers school supplies, tuition, and learning materials for a underprivileged student for one full month.</p>
+                        <div class="impact-bar">
+                            <div class="impact-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-item" data-amount="2000">
+                    <div class="impact-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <div class="impact-content">
+                        <div class="impact-amount-badge">৳2000</div>
+                        <h3>Basic Medical Checkup & Medicine</h3>
+                        <p>Provides essential medical consultation and necessary medicines for elderly community members.</p>
+                        <div class="impact-bar">
+                            <div class="impact-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-item" data-amount="5000">
+                    <div class="impact-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <div class="impact-content">
+                        <div class="impact-amount-badge">৳5000</div>
+                        <h3>Sponsors a Family's Zakat</h3>
+                        <p>Your Zakat contribution helps a struggling family meet their basic needs for an entire month.</p>
+                        <div class="impact-bar">
+                            <div class="impact-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-note">
+                <i class="fas fa-check-circle"></i>
+                <p>100% of your donation goes directly to those in need</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RAMADAN & ZAKAT SECTION -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Special Campaigns</span>
+            <h2 class="section-title">Ramadan & Zakat</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="special-wrapper">
+            <div class="special-card ramadan-card">
+                <div class="special-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h3>Ramadan Iftar Program</h3>
+                <p>Donate to provide iftar meals for fasting families throughout the holy month of Ramadan.</p>
+                <div class="special-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Families Served</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">30</span>
+                        <span class="stat-label">Days of Ramadan</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" onclick="openDonationModal('Ramadan Iftar')">Donate for Iftar</button>
+                <div class="special-glow"></div>
+            </div>
+            
+            <div class="special-card zakat-card">
+                <div class="special-icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <h3>Zakat Calculation & Distribution</h3>
+                <p>Fulfill your Zakat obligation. We ensure it reaches the most deserving families.</p>
+                <div class="zakat-calculator">
+                    <div class="calculator-item">
+                        <span>Nisab Value</span>
+                        <span class="nisab-value">৳85,000</span>
+                    </div>
+                    <div class="calculator-item">
+                        <span>Zakat Rate</span>
+                        <span class="zakat-rate">2.5%</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" onclick="openDonationModal('Zakat')">Pay Zakat</button>
+                <div class="special-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="membership" class="section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Join Us</span>
+            <h2 class="section-title">Membership</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="membership-grid">
+            <div class="membership-card" data-delay="0.1">
+                <div class="membership-badge">Student</div>
+                <div class="membership-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>Student Membership</h3>
+                <p>For students who want to serve society and develop leadership skills.</p>
+                <ul class="membership-features">
+                    <li><i class="fas fa-check-circle"></i> Leadership Training</li>
+                    <li><i class="fas fa-check-circle"></i> Networking Opportunities</li>
+                    <li><i class="fas fa-check-circle"></i> Skill Development</li>
+                </ul>
+                <button class="btn btn-primary btn-block apply-btn" onclick="openForm('Student')">Apply Now</button>
+                <div class="card-glow"></div>
+            </div>
+            
+            <div class="membership-card featured" data-delay="0.2">
+                <div class="membership-badge">Popular</div>
+                <div class="membership-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>General Membership</h3>
+                <p>For individuals committed to long-term social impact.</p>
+                <ul class="membership-features">
+                    <li><i class="fas fa-check-circle"></i> Voting Rights</li>
+                    <li><i class="fas fa-check-circle"></i> Program Access</li>
+                    <li><i class="fas fa-check-circle"></i> Community Network</li>
+                </ul>
+                <button class="btn btn-primary btn-block apply-btn" onclick="openForm('General')">Apply Now</button>
+                <div class="card-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="donation" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Support Our Cause</span>
+            <h2 class="section-title">Make a Donation</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="donation-wrapper">
+            <div class="donation-card">
+                <div class="donation-header">
+                    <h3>Select Donation Amount</h3>
+                    <p>Your contribution changes lives</p>
+                </div>
+                
+                <div class="amount-presets">
+                    <button class="amount-btn active" data-amount="500">
+                        <span class="amount-value">৳500</span>
+                        <span class="amount-label">Iftar</span>
+                    </button>
+                    <button class="amount-btn" data-amount="1000">
+                        <span class="amount-value">৳1000</span>
+                        <span class="amount-label">Education</span>
+                    </button>
+                    <button class="amount-btn" data-amount="2000">
+                        <span class="amount-value">৳2000</span>
+                        <span class="amount-label">Healthcare</span>
+                    </button>
+                    <button class="amount-btn" data-amount="5000">
+                        <span class="amount-value">৳5000</span>
+                        <span class="amount-label">Zakat</span>
+                    </button>
+                </div>
+                
+                <div class="custom-amount-wrapper">
+                    <label for="customAmount">Or enter custom amount</label>
+                    <div class="custom-amount-input">
+                        <span class="currency-symbol">৳</span>
+                        <input type="number" id="customAmount" placeholder="Enter amount" min="10">
+                    </div>
+                </div>
+                
+                <div class="payment-methods">
+                    <h4>Select Payment Method</h4>
+                    <div class="payment-grid">
+                        <button class="payment-btn bkash active" data-payment="bkash">
+                            <div class="payment-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <span class="payment-name">bKash</span>
+                            <span class="payment-badge">Fast & Secure</span>
+                            <div class="payment-wave"></div>
+                        </button>
+                        
+                        <button class="payment-btn nagad" data-payment="nagad">
+                            <div class="payment-icon">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+                            <span class="payment-name">Nagad</span>
+                            <span class="payment-badge">Instant Transfer</span>
+                            <div class="payment-wave"></div>
+                        </button>
+                        
+                        <button class="payment-btn card" data-payment="card">
+                            <div class="payment-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <span class="payment-name">Card</span>
+                            <span class="payment-badge">Visa/Mastercard</span>
+                            <div class="card-chip"></div>
+                        </button>
+                        
+                        <button class="payment-btn rocket" data-payment="rocket">
+                            <div class="payment-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <span class="payment-name">Rocket</span>
+                            <span class="payment-badge">DBBL</span>
+                            <div class="payment-wave"></div>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="donation-summary">
+                    <div class="summary-item">
+                        <span>Donation Amount:</span>
+                        <span class="summary-amount">৳500</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Payment Method:</span>
+                        <span class="summary-payment">bKash</span>
+                    </div>
+                    <div class="summary-impact">
+                        <span>This will provide:</span>
+                        <span class="impact-description">Iftar for 10 families</span>
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary btn-block btn-large donate-submit">
+                    <span class="btn-text">Complete Donation</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                
+                <p class="donation-footer">
+                    <i class="fas fa-lock"></i> Secure Payment • 100% Goes to Cause
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contact">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Make a Difference Today</h2>
+            <p>Your support helps us transform lives and strengthen communities.</p>
+            <div class="cta-buttons">
+                <a href="mailto:info@dmss.org" class="btn btn-light">
+                    <i class="fas fa-envelope"></i> Contact Us
+                </a>
+                <a href="#" class="btn btn-outline-light">
+                    <i class="fas fa-phone-alt"></i> Call Us
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="cta-particles" id="cta-particles"></div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="https://i.imgur.com/ghZGfkf.jpeg" alt="DMSS" class="footer-logo">
+                <p>Dhumerkuthi Mohammad Ali Shamaj Kalyan Shangastha</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#about">About Us</a>
+                <a href="#mission">Mission</a>
+                <a href="#programs">Programs</a>
+                <a href="#membership">Membership</a>
+                <a href="#donation">Donate</a>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="#">Annual Report</a>
+                <a href="#">Success Stories</a>
+                <a href="#">Volunteer</a>
+                <a href="#">Partners</a>
+                <a href="#">Blog</a>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Dhumerkuthi, Bangladesh</p>
+                <p><i class="fas fa-phone"></i> +880 1234 567890</p>
+                <p><i class="fas fa-envelope"></i> info@dmss.org</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 DMSS – All rights reserved</p>
+        </div>
+    </div>
+</footer>
+
+<!-- MEMBERSHIP MODAL -->
+<div class="modal" id="formModal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+        <h3 id="formTitle"></h3>
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+        </div>
+        <button type="button" class="btn btn-primary btn-block" onclick="submitForm()">Submit Application</button>
+    </div>
+</div>
+
+<!-- DONATION MODAL -->
+<div class="modal" id="donationModal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeDonationModal()"><i class="fas fa-times"></i></button>
+        <h3 id="donationModalTitle"></h3>
+        <div class="donation-modal-body">
+            <p>Enter the amount you wish to donate for <span id="donationCause"></span></p>
+            <div class="custom-amount-wrapper">
+                <div class="custom-amount-input">
+                    <span class="currency-symbol">৳</span>
+                    <input type="number" id="donationModalAmount" placeholder="Enter amount" min="10">
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h4>Select Payment Method</h4>
+                <div class="payment-grid">
+                    <button class="payment-btn bkash" data-payment="bkash">
+                        <div class="payment-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <span class="payment-name">bKash</span>
+                    </button>
+                    <button class="payment-btn nagad" data-payment="nagad">
+                        <div class="payment-icon">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <span class="payment-name">Nagad</span>
+                    </button>
+                    <button class="payment-btn card" data-payment="card">
+                        <div class="payment-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <span class="payment-name">Card</span>
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-block" onclick="processDonation()">Donate Now</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+/* ===== RESET & VARIABLES ===== */
+:root {
+    --primary: #0F766E;
+    --primary-dark: #0a5c55;
+    --primary-light: #14B8A6;
+    --secondary: #1F2933;
+    --accent: #0F766E;
+    --accent-light: #d4f0ed;
+    --light: #F9FAFB;
+    --dark: #111827;
+    --gray: #6B7280;
+    --success: #10B981;
+    --gradient: linear-gradient(135deg, var(--primary), var(--primary-light));
+    --gradient-accent: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: var(--dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background: var(--light);
+    position: relative;
+}
+
+.zaslia-font {
+    font-family: 'Zaslia', serif !important;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== HEADER ===== */
+header {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 1280px;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-radius: 50px;
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    animation: slideDown 1s ease;
+    border: 1px solid rgba(15, 118, 110, 0.1);
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.brand:hover .logo-img {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: var(--shadow-md);
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand h1 {
+    font-size: 1.9rem;
+    color: var(--primary);
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-size: 0.7rem;
+    color: var(--gray);
+    letter-spacing: 0.5px;
+}
+
+/* ===== MENU TOGGLE ===== */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    width: 30px;
+    height: 2px;
+    background: var(--primary);
+    transition: var(--transition);
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    position: relative;
+    font-weight: 600;
+    color: var(--dark);
+    padding: 5px 0;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary);
+    transform: translateY(-2px);
+}
+
+nav a.active {
+    color: var(--primary);
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f0f9ff, #e6f7f5);
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(15, 118, 110, 0.03) 0%, transparent 30%),
+                radial-gradient(circle at 70% 50%, rgba(15, 118, 110, 0.03) 0%, transparent 30%);
+    animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.hero-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 900px;
+    padding: 0 20px;
+    animation: fadeUpScale 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeUpScale {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 8px 24px;
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(15, 118, 110, 0.1));
+    color: var(--primary);
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: var(--dark);
+}
+
+.hero .highlight {
+    color: var(--primary);
+    position: relative;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    color: var(--gray);
+    max-width: 700px;
+    margin: 0 auto 35px;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 35px;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    transition: width 0.8s, height 0.8s;
+}
+
+.btn:hover::before {
+    width: 400px;
+    height: 400px;
+}
+
+.btn-primary {
+    background: var(--gradient);
+    color: white;
+    box-shadow: 0 10px 20px rgba(15, 118, 110, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(15, 118, 110, 0.3);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-light {
+    background: white;
+    color: var(--primary);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.btn-outline-light {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.btn-outline-light:hover {
+    background: white;
+    color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.btn-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn-large {
+    padding: 16px 40px;
+    font-size: 1.1rem;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-light {
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+.section-subtitle {
+    display: inline-block;
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+    color: var(--dark);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-divider {
+    width: 100px;
+    height: 3px;
+    background: var(--gradient);
+    margin: 0 auto;
+    border-radius: 2px;
+    position: relative;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: var(--primary);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-divider::before {
+    left: -10px;
+}
+
+.section-divider::after {
+    right: -10px;
+}
+
+/* ===== CARDS GRID ===== */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    background: white;
+    padding: 45px 35px;
+    border-radius: 24px;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-slow);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(40px);
+    border: 1px solid rgba(15, 118, 110, 0.1);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 70% 30%, rgba(15, 118, 110, 0.02), transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(15, 118, 110, 0.3);
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(15, 118, 110, 0.1));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border: 1px solid rgba(15, 118, 110, 0.2);
+    transition: var(--transition);
+}
+
+.card:hover .card-icon {
+    transform: scale(1.1) rotate(5deg);
+    background: var(--gradient);
+}
+
+.card:hover .card-icon i {
+    color: white;
+}
+
+.card-icon i {
+    font-size: 30px;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.card p {
+    color: var(--gray);
+    line-height: 1.8;
+}
+
+.card-shine {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: rotate(45deg);
+    animation: shine 8s infinite;
+    pointer-events: none;
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-100%) rotate(45deg);
+    }
+    20%, 100% {
+        transform: translateX(100%) rotate(45deg);
+    }
+}
+
+/* ===== PROGRAM CARDS SPECIAL BACKGROUND ===== */
+#programs {
+    position: relative;
+    background: linear-gradient(135deg, #f0f9f5, #e6f3ef);
+}
+
+#programs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(15, 118, 110, 0.03) 0%, transparent 30%),
+        radial-gradient(circle at 90% 70%, rgba(15, 118, 110, 0.03) 0%, transparent 30%),
+        repeating-linear-gradient(45deg, rgba(15, 118, 110, 0.01) 0px, rgba(15, 118, 110, 0.01) 2px, transparent 2px, transparent 10px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+#programs .card {
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(15, 118, 110, 0.15);
+}
+
+#programs .card:hover {
+    background: white;
+}
+
+/* ===== IMPACT SHOWCASE ===== */
+.impact-showcase {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.impact-showcase::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: 
+        radial-gradient(circle at 30% 40%, rgba(15, 118, 110, 0.02) 0%, transparent 30%),
+        radial-gradient(circle at 70% 60%, rgba(15, 118, 110, 0.02) 0%, transparent 30%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.impact-item {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: var(--transition);
+    border: 1px solid rgba(15, 118, 110, 0.1);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.impact-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.impact-item:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(15, 118, 110, 0.3);
+}
+
+.impact-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(15, 118, 110, 0.1));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.impact-content {
+    flex: 1;
+}
+
+.impact-amount-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--gradient);
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.impact-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: var(--dark);
+}
+
+.impact-content p {
+    color: var(--gray);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.impact-bar {
+    width: 100%;
+    height: 6px;
+    background: rgba(15, 118, 110, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.impact-progress {
+    height: 100%;
+    background: var(--gradient);
+    border-radius: 3px;
+    animation: progressPulse 2s infinite;
+}
+
+@keyframes progressPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.impact-note {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.05), rgba(15, 118, 110, 0.05));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.impact-note i {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.impact-note p {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+/* ===== SPECIAL SECTION (RAMADAN & ZAKAT) ===== */
+.special-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.special-card {
+    background: white;
+    padding: 45px 35px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-slow);
+    border: 1px solid rgba(15, 118, 110, 0.1);
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.special-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.special-card:hover {
+    transform: translateY(-12px);
+    box-shadow: var(--shadow-xl);
+}
+
+.ramadan-card:hover {
+    border-color: var(--primary);
+}
+
+.zakat-card:hover {
+    border-color: var(--primary);
+}
+
+.special-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(15, 118, 110, 0.3);
+    transition: var(--transition);
+}
+
+.special-card:hover .special-icon {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.special-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+.special-card p {
+    color: var(--gray);
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.special-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    border-top: 1px dashed rgba(15, 118, 110, 0.3);
+    border-bottom: 1px dashed rgba(15, 118, 110, 0.3);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.zakat-calculator {
+    background: rgba(15, 118, 110, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.calculator-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.calculator-item:last-child {
+    margin-bottom: 0;
+}
+
+.nisab-value,
+.zakat-rate {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.special-glow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(15, 118, 110, 0.1), transparent 70%);
+    animation: glowMove 8s infinite;
+    pointer-events: none;
+}
+
+@keyframes glowMove {
+    0%, 100% { transform: translate(0, 0); }
+    33% { transform: translate(-10%, -10%); }
+    66% { transform: translate(10%, 10%); }
+}
+
+/* ===== MEMBERSHIP CARDS ===== */
+#membership {
+    position: relative;
+    background: linear-gradient(135deg, #e8f3f0, #dcebe7);
+    overflow: hidden;
+}
+
+#membership::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(15, 118, 110, 0.04) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(15, 118, 110, 0.04) 0%, transparent 40%),
+        repeating-linear-gradient(45deg, rgba(15, 118, 110, 0.01) 0px, rgba(15, 118, 110, 0.01) 2px, transparent 2px, transparent 10px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.membership-card {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition-slow);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(40px);
+    border: 1px solid rgba(15, 118, 110, 0.1);
+}
+
+.membership-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.membership-card.featured {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    transform: scale(1.05);
+    border: 1px solid var(--primary-light);
+}
+
+.membership-card.featured h3,
+.membership-card.featured p,
+.membership-card.featured .membership-features li {
+    color: white;
+}
+
+.membership-card.featured .membership-icon i {
+    color: white;
+}
+
+.membership-card.featured .btn-primary {
+    background: white;
+    color: var(--primary);
+}
+
+.membership-card.featured .btn-primary:hover {
+    background: var(--primary-light);
+    color: white;
+}
+
+.membership-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px 18px;
+    background: var(--gradient);
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.membership-card.featured .membership-badge {
+    background: white;
+    color: var(--primary);
+}
+
+.membership-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(15, 118, 110, 0.1));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.membership-card.featured .membership-icon {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.membership-icon i {
+    font-size: 35px;
+    color: var(--primary);
+}
+
+.membership-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.membership-features {
+    list-style: none;
+    margin: 25px 0;
+}
+
+.membership-features li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.membership-features i {
+    color: var(--primary);
+}
+
+.membership-card.featured .membership-features i {
+    color: white;
+}
+
+/* Apply Now Button Animation */
+.apply-btn {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.apply-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.apply-btn:hover::after {
+    width: 300px;
+    height: 300px;
+}
+
+.apply-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(15, 118, 110, 0.4);
+}
+
+.card-glow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+    animation: cardGlow 8s infinite;
+    pointer-events: none;
+}
+
+@keyframes cardGlow {
+    0%, 100% { transform: translate(-30%, -30%); }
+    50% { transform: translate(30%, 30%); }
+}
+
+/* ===== DONATION SECTION ===== */
+#donation {
+    position: relative;
+    background: linear-gradient(135deg, #f5fbf9, #ecf5f2);
+}
+
+#donation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 0% 0%, rgba(15, 118, 110, 0.02) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(15, 118, 110, 0.02) 0%, transparent 50%),
+        linear-gradient(45deg, rgba(15, 118, 110, 0.01) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(15, 118, 110, 0.01) 25%, transparent 25%);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.donation-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.donation-card {
+    background: white;
+    border-radius: 30px;
+    padding: 45px;
+    box-shadow: var(--shadow-xl);
+    border: 1px solid rgba(15, 118, 110, 0.1);
+    transition: var(--transition);
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.donation-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.donation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(15, 118, 110, 0.15);
+    border-color: rgba(15, 118, 110, 0.3);
+}
+
+.donation-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.donation-header h3 {
+    font-size: 2rem;
+    color: var(--dark);
+    margin-bottom: 10px;
+}
+
+.donation-header p {
+    color: var(--gray);
+}
+
+/* Amount Presets */
+.amount-presets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.amount-btn {
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 18px 10px;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.amount-btn.active {
+    background: var(--gradient);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.amount-btn.active .amount-value,
+.amount-btn.active .amount-label {
+    color: white;
+}
+
+.amount-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--dark);
+    transition: var(--transition);
+}
+
+.amount-label {
+    font-size: 0.8rem;
+    color: var(--gray);
+    transition: var(--transition);
+}
+
+/* Custom Amount */
+.custom-amount-wrapper {
+    margin-bottom: 30px;
+}
+
+.custom-amount-wrapper label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.custom-amount-input {
+    position: relative;
+}
+
+.currency-symbol {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.custom-amount-input input {
+    width: 100%;
+    padding: 16px 16px 16px 50px;
+    border: 2px solid rgba(15, 118, 110, 0.2);
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    transition: var(--transition);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.custom-amount-input input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Payment Methods */
+.payment-methods h4 {
+    margin-bottom: 20px;
+    color: var(--dark);
+    font-size: 1.2rem;
+}
+
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.payment-btn {
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border: none;
+}
+
+.payment-btn.active {
+    background: var(--gradient);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.payment-btn.active .payment-name,
+.payment-btn.active .payment-badge {
+    color: white;
+}
+
+.payment-btn.bkash .payment-icon i { color: #E2136E; }
+.payment-btn.nagad .payment-icon i { color: #F97316; }
+.payment-btn.card .payment-icon i { color: #4F46E5; }
+.payment-btn.rocket .payment-icon i { color: #DC2626; }
+
+.payment-btn.active .payment-icon i { color: white; }
+
+.payment-icon i {
+    font-size: 2.2rem;
+    transition: var(--transition);
+}
+
+.payment-name {
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.payment-badge {
+    font-size: 0.7rem;
+    color: var(--gray);
+}
+
+.payment-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    transition: height 0.4s ease;
+}
+
+.payment-btn:hover .payment-wave {
+    height: 100%;
+}
+
+.card-chip {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 40px;
+    height: 25px;
+    background: linear-gradient(135deg, #FFD700, #FFC107);
+    border-radius: 5px;
+    opacity: 0;
+    transition: var(--transition);
+    transform: rotate(-15deg);
+}
+
+.payment-btn.card:hover .card-chip {
+    opacity: 1;
+    transform: rotate(0deg) scale(1.2);
+}
+
+/* Donation Summary */
+.donation-summary {
+    background: linear-gradient(135deg, rgba(15, 118, 110, 0.05), rgba(15, 118, 110, 0.05));
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.summary-item:last-child {
+    margin-bottom: 0;
+}
+
+.summary-amount {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.summary-payment {
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.summary-impact {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed rgba(15, 118, 110, 0.3);
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+}
+
+.impact-description {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* Donate Button */
+.donate-submit {
+    margin-bottom: 20px;
+}
+
+.donate-submit i {
+    transition: var(--transition);
+}
+
+.donate-submit:hover i {
+    transform: translateX(8px);
+}
+
+.donation-footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.donation-footer i {
+    margin-right: 5px;
+    color: var(--primary);
+}
+
+/* ===== CTA SECTION ===== */
+.cta {
+    background: linear-gradient(135deg, #0F766E, #0a5c55, #0F766E);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1), transparent 50%);
+    animation: ctaRotate 30s linear infinite;
+}
+
+@keyframes ctaRotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.cta-content {
+    position: relative;
+    z-index: 2;
+}
+
+.cta h2 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* ===== LIVELY CTA PARTICLES ===== */
+.cta-particle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(1px);
+    animation: floatLively 8s infinite ease-in-out;
+}
+
+@keyframes floatLively {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.3;
+    }
+    25% {
+        transform: translate(20px, -20px) scale(1.2);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translate(40px, 10px) scale(1.5);
+        opacity: 0.8;
+    }
+    75% {
+        transform: translate(10px, 30px) scale(1.1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.3;
+    }
+}
+
+.cta-particle-fast {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(2px);
+    animation: floatFast 4s infinite ease-in-out;
+}
+
+@keyframes floatFast {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.4;
+    }
+    33% {
+        transform: translate(50px, -30px) rotate(120deg) scale(1.8);
+        opacity: 0.9;
+    }
+    66% {
+        transform: translate(-20px, 40px) rotate(240deg) scale(1.3);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg) scale(1);
+        opacity: 0.4;
+    }
+}
+
+.cta-particle-twinkle {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 15px white;
+    animation: twinkle 3s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        transform: scale(0.8);
+        opacity: 0.3;
+        box-shadow: 0 0 5px white;
+    }
+    50% {
+        transform: scale(2);
+        opacity: 1;
+        box-shadow: 0 0 25px white;
+    }
+}
+
+/* ===== HERO PARTICLES ===== */
+.hero-particle {
+    position: absolute;
+    background: rgba(15, 118, 110, 0.2);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(2px);
+    animation: heroFloat 10s infinite ease-in-out;
+}
+
+@keyframes heroFloat {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+    20% {
+        transform: translate(30px, -20px) rotate(72deg) scale(1.3);
+    }
+    40% {
+        transform: translate(50px, 20px) rotate(144deg) scale(1.6);
+    }
+    60% {
+        transform: translate(20px, 50px) rotate(216deg) scale(1.4);
+    }
+    80% {
+        transform: translate(-20px, 30px) rotate(288deg) scale(1.2);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg) scale(1);
+    }
+}
+
+.hero-particle-slow {
+    position: absolute;
+    background: rgba(15, 118, 110, 0.15);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(3px);
+    animation: heroFloatSlow 15s infinite ease-in-out;
+}
+
+@keyframes heroFloatSlow {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.2;
+    }
+    25% {
+        transform: translate(40px, -30px) scale(1.4);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translate(80px, 20px) scale(1.8);
+        opacity: 0.3;
+    }
+    75% {
+        transform: translate(30px, 60px) scale(1.2);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.2;
+    }
+}
+
+/* ===== FLOATING SHAPES ===== */
+.section-floating-shape {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(15, 118, 110, 0.02) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    animation: shapeFloat 20s infinite ease-in-out;
+}
+
+@keyframes shapeFloat {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    33% {
+        transform: translate(50px, -50px) scale(1.2);
+    }
+    66% {
+        transform: translate(-30px, 30px) scale(0.8);
+    }
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(135deg, #1F2933, #111827);
+    color: white;
+    padding: 80px 0 20px;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-brand img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid var(--primary);
+}
+
+.footer-brand p {
+    color: #9CA3AF;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.social-links a:hover {
+    background: var(--primary);
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.social-links a:hover i {
+    color: white;
+}
+
+.social-links i {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-links h4::after,
+.footer-contact h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background: var(--primary);
+}
+
+.footer-links a {
+    display: block;
+    color: #9CA3AF;
+    margin-bottom: 10px;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    transform: translateX(8px);
+}
+
+.footer-contact p {
+    color: #9CA3AF;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact i {
+    color: var(--primary);
+    width: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(15, 118, 110, 0.2);
+    color: #9CA3AF;
+}
+
+/* ===== MODAL ===== */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal.active {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 30px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(15, 118, 110, 0.2);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--gray);
+    transition: var(--transition);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close:hover {
+    color: var(--primary);
+    transform: rotate(90deg);
+    background: rgba(15, 118, 110, 0.1);
+}
+
+.modal-content h3 {
+    font-size: 1.8rem;
+    color: var(--dark);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid rgba(15, 118, 110, 0.2);
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    transition: var(--transition);
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+}
+
+.donation-modal-body {
+    margin-top: 20px;
+}
+
+.donation-modal-body p {
+    margin-bottom: 20px;
+    color: var(--gray);
+}
+
+.donation-modal-body #donationCause {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+    .impact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .special-wrapper {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+    
+    .payment-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 20px;
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: var(--shadow-xl);
+        border-left: 1px solid rgba(15, 118, 110, 0.2);
+    }
+    
+    nav.active {
+        right: 0;
+    }
+    
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+    
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .amount-presets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .membership-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .membership-card.featured {
+        transform: scale(1);
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-links h4::after,
+    .footer-contact h4::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer-contact p {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand h1 {
+        font-size: 1.5rem;
+    }
+    
+    .tagline {
+        display: none;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    .donation-card {
+        padding: 30px 20px;
+    }
+    
+    .payment-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        padding: 30px 20px;
+    }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+// ===== MOBILE MENU TOGGLE =====
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('nav');
+
+if (menuToggle) {
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        nav.classList.toggle('active');
+        document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+    });
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (nav && !nav.contains(e.target) && !menuToggle?.contains(e.target)) {
+        menuToggle?.classList.remove('active');
+        nav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});
+
+// ===== SMOOTH SCROLL =====
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const target = document.querySelector(targetId);
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+            // Close mobile menu after clicking
+            menuToggle?.classList.remove('active');
+            nav?.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+});
+
+// ===== HEADER SCROLL EFFECT =====
+const header = document.querySelector('header');
+let lastScroll = 0;
+
+if (header) {
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll <= 0) {
+            header.style.transform = 'translateX(-50%)';
+            return;
+        }
+        
+        if (currentScroll > lastScroll && currentScroll > 100) {
+            // Scrolling down
+            header.style.transform = 'translateX(-50%) translateY(-120%)';
+        } else {
+            // Scrolling up
+            header.style.transform = 'translateX(-50%) translateY(0)';
+        }
+        
+        lastScroll = currentScroll;
+    });
+}
+
+// ===== ENHANCED HERO PARTICLES =====
+function createHeroParticles() {
+    const container = document.getElementById('particles');
+    if (!container) return;
+    
+    container.innerHTML = '';
+    const particleCount = 50;
+    
+    for (let i = 0; i < particleCount; i++) {
+        const type = Math.random();
+        let particle;
+        
+        if (type < 0.5) {
+            particle = document.createElement('div');
+            particle.className = 'hero-particle';
+            particle.style.cssText = `
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                width: ${Math.random() * 8 + 2}px;
+                height: ${Math.random() * 8 + 2}px;
+                background: rgba(15, 118, 110, ${Math.random() * 0.2 + 0.1});
+                animation: heroFloat ${Math.random() * 8 + 6}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 5}s;
+            `;
+        } else {
+            particle = document.createElement('div');
+            particle.className = 'hero-particle-slow';
+            particle.style.cssText = `
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                width: ${Math.random() * 12 + 4}px;
+                height: ${Math.random() * 12 + 4}px;
+                background: rgba(15, 118, 110, ${Math.random() * 0.15 + 0.1});
+                animation: heroFloatSlow ${Math.random() * 12 + 10}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 8}s;
+            `;
+        }
+        
+        container.appendChild(particle);
+    }
+    
+    // Add sparkle particles
+    for (let i = 0; i < 20; i++) {
+        const sparkle = document.createElement('div');
+        sparkle.style.cssText = `
+            position: absolute;
+            left: ${Math.random() * 100}%;
+            top: ${Math.random() * 100}%;
+            width: ${Math.random() * 4 + 1}px;
+            height: ${Math.random() * 4 + 1}px;
+            background: rgba(255, 255, 255, ${Math.random() * 0.4 + 0.3});
+            border-radius: 50%;
+            animation: twinkle ${Math.random() * 3 + 2}s infinite ease-in-out;
+            pointer-events: none;
+            z-index: 1;
+        `;
+        container.appendChild(sparkle);
+    }
+}
+
+// ===== ENHANCED CTA PARTICLES =====
+function createCtaParticles() {
+    const container = document.getElementById('cta-particles');
+    if (!container) return;
+    
+    container.innerHTML = '';
+    const particleCount = 40;
+    
+    for (let i = 0; i < particleCount; i++) {
+        const type = Math.random();
+        let particle;
+        
+        if (type < 0.4) {
+            particle = document.createElement('div');
+            particle.className = 'cta-particle';
+            particle.style.cssText = `
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                width: ${Math.random() * 8 + 2}px;
+                height: ${Math.random() * 8 + 2}px;
+                background: rgba(255, 255, 255, ${Math.random() * 0.4 + 0.3});
+                animation: floatLively ${Math.random() * 6 + 5}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 3}s;
+            `;
+        } else if (type < 0.7) {
+            particle = document.createElement('div');
+            particle.className = 'cta-particle-fast';
+            particle.style.cssText = `
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                width: ${Math.random() * 6 + 1}px;
+                height: ${Math.random() * 6 + 1}px;
+                background: rgba(255, 255, 255, ${Math.random() * 0.6 + 0.4});
+                animation: floatFast ${Math.random() * 3 + 3}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 2}s;
+            `;
+        } else {
+            particle = document.createElement('div');
+            particle.className = 'cta-particle-twinkle';
+            particle.style.cssText = `
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                width: ${Math.random() * 5 + 1}px;
+                height: ${Math.random() * 5 + 1}px;
+                background: white;
+                animation: twinkle ${Math.random() * 2 + 2}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 2}s;
+            `;
+        }
+        
+        container.appendChild(particle);
+    }
+}
+
+// ===== ADD FLOATING SHAPES TO SECTIONS =====
+function addFloatingShapes() {
+    const sections = document.querySelectorAll('.section');
+    
+    sections.forEach((section) => {
+        const shapeCount = Math.floor(Math.random() * 2) + 2;
+        
+        for (let i = 0; i < shapeCount; i++) {
+            const shape = document.createElement('div');
+            shape.className = 'section-floating-shape';
+            shape.style.cssText = `
+                position: absolute;
+                width: ${Math.random() * 200 + 100}px;
+                height: ${Math.random() * 200 + 100}px;
+                left: ${Math.random() * 80 + 10}%;
+                top: ${Math.random() * 80 + 10}%;
+                background: radial-gradient(circle, rgba(15, 118, 110, 0.02) 0%, transparent 70%);
+                border-radius: 50%;
+                pointer-events: none;
+                z-index: 0;
+                animation: shapeFloat ${Math.random() * 15 + 15}s infinite ease-in-out;
+                animation-delay: ${Math.random() * 5}s;
+            `;
+            section.appendChild(shape);
+        }
+    });
+}
+
+// ===== ADD HOVER EFFECTS TO BACKGROUND =====
+function addBackgroundEffects() {
+    const programCards = document.querySelectorAll('#programs .card');
+    programCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.background = 'linear-gradient(135deg, white, rgba(15, 118, 110, 0.02))';
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.background = 'rgba(255, 255, 255, 0.9)';
+        });
+    });
+    
+    const impactItems = document.querySelectorAll('.impact-item');
+    impactItems.forEach(item => {
+        item.addEventListener('mousemove', function(e) {
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            const moveX = (x - centerX) / 20;
+            const moveY = (y - centerY) / 20;
+            
+            this.style.transform = `translateY(-8px) translateX(${moveX}px) translateY(${moveY}px)`;
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(-8px)';
+        });
+    });
+}
+
+// ===== SCROLL REVEAL ANIMATIONS =====
+function initScrollReveal() {
+    const revealElements = document.querySelectorAll('.card, .membership-card, .impact-item, .special-card, .donation-card');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                const delay = entry.target.dataset.delay || 0;
+                entry.target.style.transitionDelay = `${delay}s`;
+            }
+        });
+    }, {
+        threshold: 0.2,
+        rootMargin: '0px 0px -50px 0px'
+    });
+    
+    revealElements.forEach(el => {
+        observer.observe(el);
+    });
+}
+
+// ===== DONATION FUNCTIONALITY =====
+function initDonation() {
+    const amountBtns = document.querySelectorAll('.amount-btn');
+    const paymentBtns = document.querySelectorAll('.payment-btn');
+    const customAmount = document.getElementById('customAmount');
+    const summaryAmount = document.querySelector('.summary-amount');
+    const summaryPayment = document.querySelector('.summary-payment');
+    const impactDescription = document.querySelector('.impact-description');
+    const donateBtn = document.querySelector('.donate-submit');
+    
+    const impactMap = {
+        500: 'Iftar for 10 families',
+        1000: 'Educates one child for a month',
+        2000: 'Medical checkup for elderly',
+        5000: 'Zakat for a family'
+    };
+    
+    let selectedAmount = 500;
+    let selectedPayment = 'bkash';
+    
+    function updateImpact(amount) {
+        if (impactDescription) {
+            impactDescription.textContent = impactMap[amount] || 'Support those in need';
+        }
+    }
+    
+    if (amountBtns.length) {
+        amountBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                amountBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const amount = parseInt(this.dataset.amount);
+                selectedAmount = amount;
+                if (customAmount) customAmount.value = '';
+                if (summaryAmount) summaryAmount.textContent = `৳${amount.toLocaleString()}`;
+                updateImpact(amount);
+                
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+    }
+    
+    if (paymentBtns.length) {
+        paymentBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                paymentBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                selectedPayment = this.dataset.payment;
+                const paymentName = this.querySelector('.payment-name')?.textContent || '';
+                if (summaryPayment) summaryPayment.textContent = paymentName;
+                
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+    }
+    
+    if (customAmount) {
+        customAmount.addEventListener('input', function() {
+            amountBtns.forEach(btn => btn.classList.remove('active'));
+            
+            const amount = parseInt(this.value);
+            if (amount && amount > 0) {
+                selectedAmount = amount;
+                if (summaryAmount) summaryAmount.textContent = `৳${amount.toLocaleString()}`;
+                
+                const amounts = [500, 1000, 2000, 5000];
+                let closest = amounts.reduce((prev, curr) => {
+                    return (Math.abs(curr - amount) < Math.abs(prev - amount) ? curr : prev);
+                });
+                
+                if (amount < 500) {
+                    if (impactDescription) impactDescription.textContent = 'Basic support for a family';
+                } else {
+                    if (impactDescription) impactDescription.textContent = impactMap[closest] || 'Support those in need';
+                }
+            }
+        });
+    }
+    
+    if (donateBtn) {
+        donateBtn.addEventListener('click', function() {
+            if (!selectedPayment) {
+                alert('Please select a payment method');
+                return;
+            }
+            
+            if (!selectedAmount || selectedAmount < 10) {
+                alert('Please enter a valid donation amount');
+                return;
+            }
+            
+            this.classList.add('loading');
+            const originalText = this.innerHTML;
+            this.innerHTML = '<span class="btn-text">Processing...</span><i class="fas fa-spinner fa-spin"></i>';
+            
+            setTimeout(() => {
+                this.classList.remove('loading');
+                this.innerHTML = '<span class="btn-text">Donation Successful!</span><i class="fas fa-check"></i>';
+                
+                setTimeout(() => {
+                    alert(`Thank you for your donation of ৳${selectedAmount.toLocaleString()}! Your support will help those in need.`);
+                    this.innerHTML = originalText;
+                    
+                    if (customAmount) customAmount.value = '';
+                    amountBtns.forEach(btn => {
+                        if (btn.dataset.amount === '500') {
+                            btn.classList.add('active');
+                        } else {
+                            btn.classList.remove('active');
+                        }
+                    });
+                    if (summaryAmount) summaryAmount.textContent = '৳500';
+                    updateImpact(500);
+                }, 1000);
+            }, 2000);
+        });
+    }
+}
+
+// ===== MODAL FUNCTIONS =====
+window.openForm = function(type) {
+    const modal = document.getElementById('formModal');
+    const title = document.getElementById('formTitle');
+    
+    if (title) title.textContent = `${type} Membership Application`;
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+window.closeModal = function() {
+    const modal = document.getElementById('formModal');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    const fullName = document.getElementById('fullName');
+    const email = document.getElementById('email');
+    const phone = document.getElementById('phone');
+    
+    if (fullName) fullName.value = '';
+    if (email) email.value = '';
+    if (phone) phone.value = '';
+}
+
+window.openDonationModal = function(cause) {
+    const modal = document.getElementById('donationModal');
+    const title = document.getElementById('donationModalTitle');
+    const causeSpan = document.getElementById('donationCause');
+    
+    if (title) title.textContent = `Donate for ${cause}`;
+    if (causeSpan) causeSpan.textContent = cause;
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+window.closeDonationModal = function() {
+    const modal = document.getElementById('donationModal');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    const amount = document.getElementById('donationModalAmount');
+    if (amount) amount.value = '';
+}
+
+window.processDonation = function() {
+    const amountInput = document.getElementById('donationModalAmount');
+    const cause = document.getElementById('donationCause')?.textContent || 'General';
+    const amount = amountInput ? amountInput.value : '';
+    
+    if (!amount || amount < 10) {
+        alert('Please enter a valid amount');
+        return;
+    }
+    
+    alert(`Thank you for donating ৳${amount} for ${cause}!`);
+    closeDonationModal();
+}
+
+window.submitForm = function() {
+    const name = document.getElementById('fullName')?.value;
+    const email = document.getElementById('email')?.value;
+    const phone = document.getElementById('phone')?.value;
+    
+    if (!name || !email || !phone) {
+        alert('Please fill in all fields');
+        return;
+    }
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address');
+        return;
+    }
+    
+    const phoneRegex = /^01[3-9]\d{8}$/;
+    if (!phoneRegex.test(phone)) {
+        alert('Please enter a valid Bangladeshi phone number');
+        return;
+    }
+    
+    alert(`Thank you, ${name}! Your application has been submitted.`);
+    closeModal();
+}
+
+// Close modals when clicking outside
+document.querySelectorAll('.modal').forEach(modal => {
+    modal.addEventListener('click', function(e) {
+        if (e.target === this) {
+            if (this.id === 'formModal') {
+                closeModal();
+            } else if (this.id === 'donationModal') {
+                closeDonationModal();
+            }
+        }
+    });
+});
+
+// Close modals on ESC
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeModal();
+        closeDonationModal();
+    }
+});
+
+// ===== LOGO CLICK TO TOP =====
+const logoTop = document.getElementById('logoTop');
+if (logoTop) {
+    logoTop.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
+// ===== ACTIVE NAVIGATION HIGHLIGHT =====
+function updateActiveNav() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+    
+    window.addEventListener('scroll', () => {
+        let current = '';
+        const scrollY = window.pageYOffset;
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 150;
+            const sectionHeight = section.clientHeight;
+            
+            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    });
+}
+
+// ===== INITIALIZE EVERYTHING =====
+document.addEventListener('DOMContentLoaded', function() {
+    createHeroParticles();
+    createCtaParticles();
+    addFloatingShapes();
+    addBackgroundEffects();
+    initScrollReveal();
+    initDonation();
+    updateActiveNav();
+    
+    document.querySelectorAll('.card-icon, .membership-icon, .special-icon').forEach(icon => {
+        icon.style.animation = 'float 4s ease-in-out infinite';
+    });
+});
